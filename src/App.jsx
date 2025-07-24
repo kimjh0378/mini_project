@@ -9,7 +9,7 @@ import Contest from './page/Contest';
 function App() {
 
   return (
-    <div>
+    <div className='body'>
       
     <Header />
     <Routes>
