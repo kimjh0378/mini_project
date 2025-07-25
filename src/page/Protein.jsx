@@ -4,6 +4,7 @@ import beef from "../img/beef.jpg"
 import duck from "../img/duck.jpg"
 import egg from "../img/egg.jpg"
 import pig from "../img/pig.jpg"
+import '../page/homePage.css';
 
 
 function Protein () {
@@ -76,7 +77,7 @@ function Protein () {
 
   return (
     <div className="Container">
-      <h1>식단정보(계란 제외 것 들은 모두 100g기준)</h1>
+      <h1>식단정보(계란제외 100g기준)</h1>
       <h2>총 단백질: {totalProtein}g</h2>
       <button onClick={() => {
         setCounts(Array(foods.length).fill(0)); // 이걸 누르면 값이 모두 0으로 fill때문에 바뀌어서 0으로 초기화됨

@@ -1,4 +1,46 @@
-.container {
-  border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+button {
+background-color: white;
+color: black;
+border-radius: 12px;
+font-size: 20px;
+
+
+transition: all 3s ease;
+transition: transform 0.1s ease;
+}
+
+button:active {
+  transform: scale(0.9);
+}
+
+
+.money {
+  border: 1px solid red;
+  width: 350px;
+  background-color: white;
+  color: black;
+  font-family: 'Noto Sans KR', sans-serif;
+  background: linear-gradient(to bottom, #9ECAD6 ,  #EEEEEE);
+}
+
+.logoBox {
+  display: flex;
+  border: 3px solid black;
+  
+}
+.logoContainer {
+
+  border: 3px solid black;
+
+}
+
+.logoContainer > button {
+  margin-right: 300px;
+}
+
+.logocup {
+  width: 500px;
+}
+.logocup > p {
+  right: 300px;
 }

@@ -16,9 +16,10 @@ function Header () {
         <Container>
           <Navbar.Brand onClick={() => navigate('/')}>🥇오운완짐🥇</Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link onClick={() => navigate('/food')}>식단관리</Nav.Link>
+            <Nav.Link onClick={() => navigate('/food')}>식단정보</Nav.Link>
             <Nav.Link onClick={() => navigate('/rutin')}>루틴관리</Nav.Link>
             <Nav.Link onClick={() => navigate('/contest')}>수상경력</Nav.Link>
+            <Nav.Link onClick={() => navigate('/logo')}>헬스장 머신정보</Nav.Link>
           </Nav>
         </Container>
       </Navbar>
