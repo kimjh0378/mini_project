@@ -3,7 +3,7 @@ import chris from "../trainer/chris.jpg"
 import jaehoon from "../trainer/jaehoon.jpg"
 import jay from "../trainer/jay.jpg"
 import tom from "../trainer/tom.jpg"
-import '../page/Homepage.css'
+import '../page/homepage.css'
 
 
 
@@ -17,9 +17,9 @@ function Contest () {
       <div className="trainerimg">
       <h1 className="trainer">관장 트레이너 소개 및 🥇수상경력🥇</h1>
       <h3 className="trainer">✅ 대회 티어 알아보기 (전 세계 기준)</h3>
-      <h4 className="trainer">✅1. Mr. Olympia : 세계 최고 권위. IFBB Pro 중 최정상급만 출전. 우승자는 레전드 선수로 등극 </h4>
-      <h4 className="trainer">✅2. Arnold Classic : 전 보디빌더인	아놀드 슈워제네거가 만든 대회. 상금·인지도 모두 최상위</h4>
-      <h4 className="trainer">✅3. IFBB Pro Shows  (NY Pro, Tampa Pro 등) :	IFBB 프로들이 Mr.Olympia 출전을 위해 참가</h4>
+      <h4 className="trainer">✅1. Mr. Olympia : 세계 최고 권위. IFBB Pro 중 최정상급만 출전. 우승자는 레전드 선수로 등극. </h4>
+      <h4 className="trainer">✅2. Arnold Classic : 전 보디빌더인	아놀드 슈워제네거가 만든 대회. 상금·인지도 모두 최상위.</h4>
+      <h4 className="trainer">✅3. IFBB Pro Shows  (NY Pro, Tampa Pro 등) :	IFBB 프로들이 Mr.Olympia 출전을 위해 참가.</h4>
         
         <img src={ronnie} style={{
           height: '200px',

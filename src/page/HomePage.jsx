@@ -2,7 +2,7 @@ import gym from "../bg.jpg"
 import gym2 from "../bg2.jpg"
 import bfaf from "../bfaf.jpg"
 import bfaf2 from "../bfaf2.png"
-import '../page/Homepage.css'
+import '../page/homepage.css'
 import cydex from "../logoimg/cybex.png"
 import hammer from "../logoimg/hammer.png"
 import life from "../logoimg/life.png"
@@ -119,7 +119,7 @@ function HomePage () {
           left: '100px',
           fontSize: '60px',
           color: 'white'
-        }}>프리웨이트존이 넓어서 초보자 분들도 눈치보지 않고 운동을 할수있고 다양한 덤벨 무게로 많은 운동을 할수있습니다</h3>
+        }}>프리웨이트존이 넓어서 초보자 분들도 눈치보지 않고 운동을 할수있고 다양한 덤벨 무게로 많은 운동을 할수있습니다.</h3>
 
         <h3 style={{
           width: '800px',
@@ -130,7 +130,7 @@ function HomePage () {
           left: '900px',
           fontSize: '60px',
           color: 'white'
-        }}>최소무게 1kg 부터 최대 80kg덤벨까지 구비하여 초보자부터 상급자 까지 원하는 무게를 사용할수있습니다 </h3>
+        }}>최소무게 1kg 부터 최대 80kg덤벨까지 구비하여 초보자부터 상급자 까지 원하는 무게를 사용할수있습니다. </h3>
 
         <h2 style={{
           width: '1290px',
