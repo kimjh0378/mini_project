@@ -4,7 +4,7 @@ import Header from './components/Header';
 import HomePage from './page/HomePage';
 import Protein from './page/Protein';
 import Contest from './page/Contest';
-import Logo from './page/logo';
+import Logo from './page/Logo';
 import HammerStrength from './page/HammerStrength';
 import LifeFitness from './page/LifeFitness';
 import Panatta from './page/Panatta';
