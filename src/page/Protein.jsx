@@ -4,7 +4,7 @@ import beef from "../img/beef.jpg"
 import duck from "../img/duck.jpg"
 import egg from "../img/egg.jpg"
 import pig from "../img/pig.jpg"
-import '../page/HomePage.css';
+import '../page/Homepage.css';
 
 
 function Protein () {
