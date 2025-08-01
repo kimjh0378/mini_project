@@ -4,8 +4,8 @@ import inclinePress from "../HammerStrength/InclinePress.png"
 import LateralRaise from "../HammerStrength/LateralRaise.jpg"
 import Latpulldown from "../HammerStrength/LatPulldown.jpg"
 import TBarRow from "../HammerStrength/TBarRow.jpg"
-import wideChestPress from "../HammerStrength/wideChestPress.png"
-import widePulldown from "../HammerStrength/widePulldown.png"
+import wideChestPress from "../HammerStrength/WideChestPress.png"
+import widePulldown from "../HammerStrength/WidePulldown.png"
 
 
 
@@ -82,7 +82,7 @@ const HsMachine = [
 
       <div>
         
-        <p>플레이트 로드(Plate Loaded) 머신의 대표 브랜드</p>
+        <p>플레이트 로드(Plate Loaded) 머신의 대표 브랜드임</p>
         <p>내구성이 매우 높고 프리웨이트에 가까운 운동 동작이 특징</p>
         <p>상체 운동에는 상위권이라 생각함</p>
       </div>
