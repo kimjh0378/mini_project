@@ -4,7 +4,7 @@ import cydex from "../logoimg/cybex.png"
 import hammer from "../logoimg/hammer.png"
 import life from "../logoimg/life.png"
 import panatta from "../logoimg/panatta.png"
-import '../page/homepage.css'
+import '../page/Homepage.css'
 
 
 

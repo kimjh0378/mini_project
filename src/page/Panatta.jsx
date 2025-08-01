@@ -6,7 +6,7 @@ import rack from "../Panattaimg/rack.png"
 import rackred from "../Panattaimg/rackred.png" 
 import SeatedRow from "../Panattaimg/SeatedRow.png" 
 import smith from "../Panattaimg/smith.jpg"
-import '../page/homepage.css'
+import '../page/Homepage.css'
 
 
 
@@ -75,7 +75,7 @@ return (
     <div><h1>panatta 머신정보</h1></div>
       <button onClick={() => navigate('/logo')}>돌아가기</button>
       <button onClick={() => navigate('/cydex')}>Cydex</button>
-      <button onClick={() => navigate('/hammer')}>Hammer</button>
+      <button onClick={() => navigate('/hammer')}>hammer</button>
       <button onClick={() => navigate('/life')}>life</button>
 
        <div>
