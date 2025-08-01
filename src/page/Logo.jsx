@@ -4,7 +4,7 @@ import cydex from "../logoimg/cybex.png"
 import hammer from "../logoimg/hammer.png"
 import life from "../logoimg/life.png"
 import panatta from "../logoimg/panatta.png"
-import '../page/homepage.css'
+import '../page/Homepage.css'
 
 
 
@@ -38,8 +38,9 @@ function Logo () {
   
   return (
     
-    <div>
+    <div className="logobody">
       <div className="logoContainer">
+        <h1>🏋️‍♂️헬스장 머신정보🏋️‍♂️</h1>
         <LogoList logos={logos} />
         <button onClick={() => navigate('/cydex')}>cydex 정보보기</button>
 
@@ -53,6 +54,16 @@ function Logo () {
         <button onClick={() => navigate('/panatta')}>PANATTA 정보보기</button>
 
       </div>
+
+
+      
+      
+
+      
+
+     
+
+      
     </div>
 
   )

@@ -4,7 +4,8 @@ import beef from "../img/beef.jpg"
 import duck from "../img/duck.jpg"
 import egg from "../img/egg.jpg"
 import pig from "../img/pig.jpg"
-import '../page/homePage.css';
+import tip from "../tip.png"
+import '../page/HomePage.css';
 
 
 function Protein () {
@@ -56,7 +57,7 @@ function Protein () {
   const [visibleInfos, setVisibleInfos] = useState(Array(foods.length).fill(false))
 
   const btnCount = (index, change) => {
-    const newCounts = [...counts]; // 위에 food배열에있는걸 counts에 옮기고 그 옮긴걸 배열을 다시 깼다 주소값을 만들어서 새로운 newCount에 넣어줌
+    const newCounts = [...counts]; // 위에 foods배열에있는걸 counts에 옮기고 그 옮긴걸 배열을 다시 깼다 주소값을 만들어서 새로운 newCount에 넣어줌
     newCounts[index] = newCounts[index] + change;  // 현재 수량에다가 change값을 더함
     if(newCounts[index] < 0) {
       newCounts[index] = 0;
@@ -77,22 +78,31 @@ function Protein () {
 
   return (
     <div className="Container">
-      <h1>식단정보(계란제외 100g기준)</h1>
+      <h1>🍖추천식단정보🍖(계란제외 100g기준)</h1>
       <h2>총 단백질: {totalProtein}g</h2>
       <button onClick={() => {
         setCounts(Array(foods.length).fill(0)); // 이걸 누르면 값이 모두 0으로 fill때문에 바뀌어서 0으로 초기화됨
         setVisibleInfos(Array(foods.length).fill(false)); // 이걸 누르면 모두 false로 바뀌어서 초기화됨
         
       }}>리셋</button>
+      <div className="main-bg">
       {foods.map((food, index) => (
-        <div key={food.id} style={{marginBottom: "40px"}}>
+        <div key={food.id} style={{
+          marginBottom: "40px",
+          border: '2px solid black',
+          width: '400px',
+          
+         
+          
+          
+          }}>
           <h2>{food.name}</h2>
-          <div className="main-bg" style={ {
+          <div  style={ {
             backgroundImage: `url(${food.image})`,
-            height: "200px",
+            height: "300px",
             backgroundSize: "400px",
             backgroundRepeat: "no-repeat",
-            backgroundPosition: "left",
+            backgroundPosition: "left",           
           }}
           ></div>
            <div>
@@ -111,16 +121,32 @@ function Protein () {
 
           
           <h3>수량: {counts[index]}</h3> 
-          <h3>단백질: {counts[index] * food.protein}</h3>
+          <h3>단백질: {counts[index] * food.protein} g</h3>
           
           {/* visibleInfos[index]가 참이면 <p>{food.info}</p> 여기에 보이게 설정이 된거임 */}
           {visibleInfos[index] && <p>{food.info}</p>}
           
         </div>
       ))}
-
+    </div>
       
-
+      <div>
+        <h3>단백질 섭취 팁</h3>
+        <p>흔히 말하는 벌크업(린매스업)은 본인 몸무게 X 단백질 2g 섭취를 해주는게 좋습니다</p>
+        <p>다이어트(컷팅)에 들어가면 본인 몸무게 X 1.5~1.8g 섭취를 해주는게 좋습니다</p>
+        <p>나는 그냥 그런거 없고 운동 그냥 하는거다 하시면 본인 몸무게 만큼은 섭취 해 주시면 좋습니다</p>
+      </div>
+      {/* <div style={{
+        backgroundImage: 'url(' + tip + ')',
+        height: '280px',
+        width: '350px',
+        backgroundSize: '350px',
+        backgroundRepeat: "no-repeat",
+        position: 'absolute',
+        right: '800px',
+        bottom: '-100px'
+        
+      }}></div> */}
 
       
     </div>
