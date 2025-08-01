@@ -2,7 +2,7 @@ import gym from "../bg.jpg"
 import gym2 from "../bg2.jpg"
 import bfaf from "../bfaf.jpg"
 import bfaf2 from "../bfaf2.png"
-import '../page/homepage.css'
+import '../page/Homepage.css'
 import cydex from "../logoimg/cybex.png"
 import hammer from "../logoimg/hammer.png"
 import life from "../logoimg/life.png"
@@ -107,7 +107,7 @@ function HomePage () {
           left: '900px',
           fontSize: '55px',
           color: 'white'
-        }}>전국 최대 오운완짐은 약 1000평 규모의 헬스장으로 수많은 머신들과 프리웨이트존 이 구비되어있습니다 </h3>
+        }}>전국 최대 오운완짐은 약 1000평 규모의 헬스장으로 수많은 머신들과 프리웨이트존 이 구비되어있습니다. </h3>
 
 
         <h3 style={{

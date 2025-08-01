@@ -4,7 +4,7 @@ import beef from "../img/beef.jpg"
 import duck from "../img/duck.jpg"
 import egg from "../img/egg.jpg"
 import pig from "../img/pig.jpg"
-import '../page/homePage.css';
+import '../page/HomePage.css';
 
 
 function Protein () {
@@ -78,7 +78,7 @@ function Protein () {
   return (
     <div className="Container">
       <h1>🍖추천식단정보🍖(계란제외 100g기준)</h1>
-      <h2>총 단백질: {totalProtein}g</h2>
+      <h2>총 단백질 : {totalProtein}g</h2>
       <button onClick={() => {
         setCounts(Array(foods.length).fill(0)); // 이걸 누르면 값이 모두 0으로 fill때문에 바뀌어서 0으로 초기화됨
         setVisibleInfos(Array(foods.length).fill(false)); // 이걸 누르면 모두 false로 바뀌어서 초기화됨
