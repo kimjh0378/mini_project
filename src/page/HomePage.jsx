@@ -2,7 +2,6 @@ import gym from "../bg.jpg"
 import gym2 from "../bg2.jpg"
 import bfaf from "../bfaf.jpg"
 import bfaf2 from "../bfaf2.png"
-import money from "../money.jpg"
 import '../page/Homepage.css'
 import cydex from "../logoimg/cybex.png"
 import hammer from "../logoimg/hammer.png"
