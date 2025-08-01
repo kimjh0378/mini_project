@@ -5,7 +5,7 @@ import cablemachine from "../Panattaimg/cablemachine.png"
 import rack from "../Panattaimg/rack.png"
 import rackred from "../Panattaimg/rackred.png" 
 import SeatedRow from "../Panattaimg/SeatedRow.png" 
-import smith from "../Panattaimg/smith.jpg"
+import smith from "../Panattaimg/Smith.jpg"
 import '../page/Homepage.css'
 
 
@@ -79,7 +79,7 @@ return (
       <button onClick={() => navigate('/life')}>life</button>
 
        <div>
-        <p>궤적이 부드럽고 근육을 끝까지 자극하는 구조</p>
+        <p>궤적이 부드럽고 근육을 끝까지 자극하는 구조임</p>
         <p>머신에도 다양한 각도를 설정할수 있어서 범용성이 좋음</p>
         <p>각도 조절로 프리웨이트와 비슷하게 운동가능해서 요증 인기가 상승중인 제품</p>
       </div>
