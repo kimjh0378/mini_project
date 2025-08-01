@@ -2,7 +2,7 @@ import gym from "../bg.jpg"
 import gym2 from "../bg2.jpg"
 import bfaf from "../bfaf.jpg"
 import bfaf2 from "../bfaf2.png"
-import '../page/Homepage.css'
+import '../page/homepage.css'
 import cydex from "../logoimg/cybex.png"
 import hammer from "../logoimg/hammer.png"
 import life from "../logoimg/life.png"
@@ -143,7 +143,7 @@ function HomePage () {
           color: 'white',
           
           
-        }}>좋은 기구에는 좋은 트레이너.</h2>
+        }}>좋은 기구에는 좋은 트레이너</h2>
 
 
        </div>
