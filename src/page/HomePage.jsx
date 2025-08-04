@@ -239,7 +239,8 @@ function HomePage () {
         backgroundSize: 'cover',
         transform: 'translateX(1100px) translateY(2200px)',
         borderRadius: '20%'
-      }}></div>
+      }}>
+      </div>
       
     </div>
   )

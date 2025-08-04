@@ -73,7 +73,7 @@ const CydexMachine = [
             <div key={cydexs.id} style={{
               marginBottom: '10px',
               border: '5px solid white',
-              width: '450px',
+              width: '410px',
               marginLeft: '80px',
               marginTop: '50px'
             }}>

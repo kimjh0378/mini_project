@@ -103,8 +103,10 @@ return (
               backgroundImage: `url(${pntta.image})`,
               height: '499px',
               width: '500px',
-              backgroundSize: 'cover',
+              backgroundSize: '500px',
+              backgroundRepeat: "no-repeat",
               marginLeft: '0px'
+
             }}>
             </div>
           </div>
